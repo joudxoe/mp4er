@@ -1,0 +1,6 @@
+{
+    "require": {
+        "smarty/smarty": "^3.1",
+        "owner888/phpspider": "^2.1"
+    }
+}
