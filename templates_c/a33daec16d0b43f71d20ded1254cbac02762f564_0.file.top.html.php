@@ -1,4 +1,27 @@
-<div class="ui vertical inverted sidebar menu left-sidebar">
+<?php
+/* Smarty version 3.1.40, created on 2021-11-15 16:13:40
+  from 'C:\xampp\htdocs\templates\top.html' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.40',
+  'unifunc' => 'content_61927924a40d69_08084319',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'a33daec16d0b43f71d20ded1254cbac02762f564' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\templates\\top.html',
+      1 => 1636988641,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_61927924a40d69_08084319 (Smarty_Internal_Template $_smarty_tpl) {
+?><div class="ui vertical inverted sidebar menu left-sidebar">
   <a class="item" href="s/dongzuo.html">动作</a>
   <a class="item" href="s/aiqing.html">爱情</a>
   <a class="item" href="s/xiju.html">喜剧</a>
@@ -94,4 +117,5 @@
             </div>
         </div>
     </div>
-</div>
+</div><?php }
+}
