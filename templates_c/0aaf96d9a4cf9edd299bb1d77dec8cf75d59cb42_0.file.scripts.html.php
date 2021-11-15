@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.40, created on 2021-11-15 17:09:19
+/* Smarty version 3.1.40, created on 2021-11-15 17:47:32
   from 'C:\phpstudy_pro\WWW\templates\scripts.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.40',
-  'unifunc' => 'content_619223bf7600c4_65371144',
+  'unifunc' => 'content_61922cb4796067_74017509',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0aaf96d9a4cf9edd299bb1d77dec8cf75d59cb42' => 
     array (
       0 => 'C:\\phpstudy_pro\\WWW\\templates\\scripts.html',
-      1 => 1636967356,
+      1 => 1636969546,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_619223bf7600c4_65371144 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61922cb4796067_74017509 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  id="js5297">
     $(function () {
@@ -31,8 +31,7 @@ echo '<script'; ?>
             type: 'image',
             transition: 'fade in',
             duration: 1000
-        })
-        ;
+    });
     $('#pbSlider0').pbTouchSlider({
         slider_Wrap: '#pbSliderWrap0',
         slider_Threshold: 10,
@@ -70,9 +69,11 @@ echo '<script'; ?>
     if (!IsPC()) {
         //document.write('<?php echo '<script'; ?>
  src="/js/aes.js?v=3.0"><\/script>')
-        $('body').append('<div class="ayx" style="position: fixed;bottom: -10px;right:0;z-index:999;width:150px;display:none;"><b style="position:absolute;right:0;top:0px;width:33px;height:33px;text-align:center" onclick="$(this).parent().remove();"><img src="images/close.png"/></b><a  href="javascript:void(0)" rel="nofollow" target="_new"><img src="https://dimg04.c-ctrip.com/images/0101n120009408g7i1255.jpg" width="100%"/></a></div>');
-    } else { $('#index-pic').attr('style', 'width:100%;margin-top:-20px'); $('body').append('<div class="ayx" style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px;display:none;"><b style="position:absolute;right:0;top:0px;width:33px;height:33px;text-align:center" onclick="$(this).parent().remove();"><img src="images/close.png"/></b><a  href="javascript:void(0)" rel="nofollow" target="_new"><img src="https://dimg04.c-ctrip.com/images/0101n120009408g7i1255.jpg" width="100%"/></a></div>'); }
-    $('.ayx').click(function () { window.open(adUrl); });
+        $('body').append('<div class="ayx" style="position: fixed;bottom: -10px;right:0;z-index:999;width:150px;display:none;"><b style="position:absolute;right:0;top:0px;width:33px;height:33px;text-align:center" onclick="$(this).parent().remove();"><img src="/statics/images/close.png"/></b><a  href="javascript:void(0)" rel="nofollow" target="_new"><img src="https://dimg04.c-ctrip.com/images/0101n120009408g7i1255.jpg" width="100%"/></a></div>');
+    } else {
+        $('#index-pic').attr('style', 'width:100%;margin-top:-20px'); $('body').append('<div class="ayx" style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px;display:none;"><b style="position:absolute;right:0;top:0px;width:33px;height:33px;text-align:center" onclick="$(this).parent().remove();"><img src="/statics/images/close.png"/></b><a  href="javascript:void(0)" rel="nofollow" target="_new"><img src="https://dimg04.c-ctrip.com/images/0101n120009408g7i1255.jpg" width="100%"/></a></div>');
+    }
+    // $('.ayx').click(function () { window.open(adUrl); });
 <?php echo '</script'; ?>
 ><?php }
 }

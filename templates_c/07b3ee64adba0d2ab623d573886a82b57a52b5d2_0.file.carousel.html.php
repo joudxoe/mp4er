@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.40, created on 2021-11-15 16:25:16
+/* Smarty version 3.1.40, created on 2021-11-15 17:53:21
   from 'C:\phpstudy_pro\WWW\templates\carousel.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.40',
-  'unifunc' => 'content_6192196c82ffc0_35929082',
+  'unifunc' => 'content_61922e113e16c9_65151841',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '07b3ee64adba0d2ab623d573886a82b57a52b5d2' => 
     array (
       0 => 'C:\\phpstudy_pro\\WWW\\templates\\carousel.html',
-      1 => 1636964714,
+      1 => 1636969993,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61922e113e16c9_65151841 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="ui stackable grid" style="margin-bottom:.5em">
     <div class="eleven wide column"> <span class="ui teal ribbon label slider-label">热播影视</span>
         <div class='o-sliderContainer' id="pbSliderWrap0" style="margin-top:0;">
@@ -106,8 +106,9 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 14:27:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">跪求连续剧《一见倾心》，《现在正在分手中》，
-                            拜托拜托了！</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">跪求连续剧《一见倾心》，《现在正在分手中》，拜托拜托了！</a>
+                    </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -115,7 +116,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 14:07:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="donghua/18436.html" target="_blank">求站长更新，最新已经到24集啦！</a>
+                    <div class="ui text nowrap">
+                        <a href="donghua/18436.html" target="_blank">求站长更新，最新已经到24集啦！</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +126,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 13:54:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求嗜血法医第一到第八季，谢谢</a>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求嗜血法医第一到第八季，谢谢</a>
                     </div>
                 </div>
             </div>
@@ -133,7 +136,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 12:33:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求：职场阴谋 谢谢站长</a>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求：职场阴谋 谢谢站长</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +146,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 12:31:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="xiju/20781.html" target="_blank">我下的两个都是粤语版</a>
+                    <div class="ui text nowrap">
+                        <a href="xiju/20781.html" target="_blank">我下的两个都是粤语版</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +156,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 11:52:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="meiju/20760.html" target="_blank">第4集下不了</a>
+                    <div class="ui text nowrap">
+                        <a href="meiju/20760.html" target="_blank">第4集下不了</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +166,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 11:25:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求台剧 茶金</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求台剧 茶金</a> </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -168,7 +175,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 05:41:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">生肉貌似还没有出.</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">生肉貌似还没有出.</a> </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -176,7 +184,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 05:38:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">站长，求发布《一见倾心》，
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">站长，求发布《一见倾心》，
                             拜托拜托了！</a> </div>
                 </div>
             </div>
@@ -185,7 +194,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 02:34:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">跪求连续剧《一见倾心》，《现在正在分手中》，
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">跪求连续剧《一见倾心》，《现在正在分手中》，
                             拜托拜托了！</a> </div>
                 </div>
             </div>
@@ -194,7 +204,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 02:15:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">有没毒液2的？</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">有没毒液2的？</a> </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -202,7 +213,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 01:17:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求中国合伙人</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求中国合伙人</a> </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -210,7 +222,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 00:33:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="guoju/20769.html" target="_blank">等全劇再看</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="guoju/20769.html" target="_blank">等全劇再看</a> </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -218,7 +231,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-15 00:01:15</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">站长。能否重新上传下疑犯追踪</a>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">站长。能否重新上传下疑犯追踪</a>
                     </div>
                 </div>
             </div>
@@ -227,7 +241,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-14 23:44:14</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="play/20743-1.html" target="_blank">jeff好可爱</a>
+                    <div class="ui text nowrap">
+                        <a href="play/20743-1.html" target="_blank">jeff好可爱</a>
                     </div>
                 </div>
             </div>
@@ -236,7 +251,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-14 23:19:14</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="kehuan/20765.html" target="_blank">看不到</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="kehuan/20765.html" target="_blank">看不到</a> </div>
                 </div>
             </div>
             <div class="comment"> <a class="avatar"> <img src="/statics/images/steve.jpg"> </a>
@@ -244,7 +260,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-14 21:54:14</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求电影《警察局》，谢谢</a>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求电影《警察局》，谢谢</a>
                     </div>
                 </div>
             </div>
@@ -253,7 +270,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-14 21:34:14</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求新人类！男友会漏电</a>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求新人类！男友会漏电</a>
                     </div>
                 </div>
             </div>
@@ -262,7 +280,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-14 21:24:14</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="guoju/20689.html" target="_blank">救命30片集无法下载完成</a>
+                    <div class="ui text nowrap">
+                        <a href="guoju/20689.html" target="_blank">救命30片集无法下载完成</a>
                     </div>
                 </div>
             </div>
@@ -271,7 +290,8 @@ function content_6192196c82ffc0_35929082 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="metadata">
                         <div class="date">2021-11-14 20:53:14</div>
                     </div>
-                    <div class="ui text nowrap"> <a href="qiupian.html" target="_blank">求嗜血法医第九季</a> </div>
+                    <div class="ui text nowrap">
+                        <a href="qiupian.html" target="_blank">求嗜血法医第九季</a> </div>
                 </div>
             </div>
         </div>

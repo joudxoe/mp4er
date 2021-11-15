@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.40, created on 2021-11-15 16:44:54
+/* Smarty version 3.1.40, created on 2021-11-15 17:37:15
   from 'C:\phpstudy_pro\WWW\templates\container.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.40',
-  'unifunc' => 'content_61921e06714c43_40905176',
+  'unifunc' => 'content_61922a4bdc0d58_13785714',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3122b567c789313e368b43239971a76d7131eecd' => 
     array (
       0 => 'C:\\phpstudy_pro\\WWW\\templates\\container.html',
-      1 => 1636965892,
+      1 => 1636969033,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:carousel.html' => 1,
   ),
 ),false)) {
-function content_61921e06714c43_40905176 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61922a4bdc0d58_13785714 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="ui container">
     <?php $_smarty_tpl->_subTemplateRender('file:carousel.html', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
@@ -871,7 +871,7 @@ function content_61921e06714c43_40905176 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div class="card">
             <a class="image" href="gangtaiju/20198.html" title="2021台剧《第三布局 尘沙惑》更至15集.HD1080P.国语中字" target="_blank">
-                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="../sc02.alicdn.com/kf/U4743cb3223ec4797b6161f8883825804S.jpg" />
+                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="/statics/sc02.alicdn.com/kf/U4743cb3223ec4797b6161f8883825804S.jpg" />
                 <span class="rate">8.4 分</span> <span class="ep">更至15集</span>
             </a>
             <div class="content">
@@ -950,7 +950,7 @@ function content_61921e06714c43_40905176 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div class="card">
             <a class="image" href="meiju/20202.html" title="2021美剧《怪兽上班》10集全.HD1080P.英语中英双字" target="_blank">
-                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="../sc02.alicdn.com/kf/Ue2757446b8e642b18f6f34b9d528ebcbs.jpg" />
+                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="/statics/sc02.alicdn.com/kf/Ue2757446b8e642b18f6f34b9d528ebcbs.jpg" />
                 <span class="ep">完结</span>
             </a>
             <div class="content">
@@ -1010,7 +1010,7 @@ function content_61921e06714c43_40905176 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div class="card">
             <a class="image" href="meiju/20088.html" title="2021美国动漫《瑞克和莫蒂 第五季》10集全.HD1080P.英语中英双字" target="_blank">
-                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="../sc02.alicdn.com/kf/U6ae192b9eba74b0997121caf81ef35c1G.jpg" />
+                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="/statics/sc02.alicdn.com/kf/U6ae192b9eba74b0997121caf81ef35c1G.jpg" />
                 <span class="rate">9.8 分</span> <span class="ep">完结</span>
             </a>
             <div class="content">
@@ -1110,7 +1110,7 @@ function content_61921e06714c43_40905176 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div class="card">
             <a class="image" href="donghua/16267.html" title="2019国漫《镇魂街 第二季》重制版.10集全.HD1080P.国语中字" target="_blank">
-                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="../sc02.alicdn.com/kf/Ub95ded6dc2974799ab6adc3689245045S.jpg" />
+                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="/statics/sc02.alicdn.com/kf/Ub95ded6dc2974799ab6adc3689245045S.jpg" />
                 <span class="rate">6.4 分</span> <span class="ep">完结</span>
             </a>
             <div class="content">
@@ -1319,7 +1319,7 @@ function content_61921e06714c43_40905176 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div class="card">
             <a class="image" href="meiju/19659.html" title="2021美剧《超级少女 第六季》更至19集.HD1080P.英语中英双字" target="_blank">
-                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="../sc02.alicdn.com/kf/U372cf7fe2d104b96881c2bdee9ee5ef93.jpg" />
+                <img src="/statics/images/load.gif" referrerpolicy="no-referrer" data-src="/statics/sc02.alicdn.com/kf/U372cf7fe2d104b96881c2bdee9ee5ef93.jpg" />
                 <span class="ep">更至19集</span>
             </a>
             <div class="content">

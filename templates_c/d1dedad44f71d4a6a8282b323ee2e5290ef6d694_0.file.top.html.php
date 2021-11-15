@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.40, created on 2021-11-15 17:02:25
+/* Smarty version 3.1.40, created on 2021-11-15 17:31:44
   from 'C:\phpstudy_pro\WWW\templates\top.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.40',
-  'unifunc' => 'content_61922221d68de6_67485227',
+  'unifunc' => 'content_61922900e35239_88937351',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd1dedad44f71d4a6a8282b323ee2e5290ef6d694' => 
     array (
       0 => 'C:\\phpstudy_pro\\WWW\\templates\\top.html',
-      1 => 1636966939,
+      1 => 1636967530,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61922221d68de6_67485227 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61922900e35239_88937351 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="ui vertical inverted sidebar menu left-sidebar">
   <a class="item" href="s/dongzuo.html">动作</a>
   <a class="item" href="s/aiqing.html">爱情</a>
@@ -90,11 +90,17 @@ function content_61922221d68de6_67485227 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </div>
             <div class="column">
-                <div class="ui link list"> <a class="item" href="s/lishi.html">历史</a><a class="item"
-                        href="s/yundong.html">运动</a><a class="item" href="s/yuanchuang.html">原创压制</a><a class="item"
-                        href="s/meiju.html">美剧</a><a class="item" href="s/hanju.html">韩剧</a><a class="item"
-                        href="s/guoju.html">国产电视剧</a><a class="item" href="s/riju.html">日剧</a><a class="item"
-                        href="s/yingju.html">英剧</a><a class="item" href="s/deju.html">德剧</a> </div>
+                <div class="ui link list">
+                    <a class="item" href="s/lishi.html">历史</a>
+                    <a class="item" href="s/yundong.html">运动</a>
+                    <a class="item" href="s/yuanchuang.html">原创压制</a>
+                    <a class="item" href="s/meiju.html">美剧</a>
+                    <a class="item" href="s/hanju.html">韩剧</a>
+                    <a class="item" href="s/guoju.html">国产电视剧</a>
+                    <a class="item" href="s/riju.html">日剧</a>
+                    <a class="item" href="s/yingju.html">英剧</a>
+                    <a class="item" href="s/deju.html">德剧</a>
+                </div>
             </div>
             <div class="column">
                 <div class="ui link list">

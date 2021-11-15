@@ -125,8 +125,8 @@
                     var activeStatus = incrPagination === pbSlider.slider_Active ? ' class="isActive"' : '';
                     var gotoSlide = 'data-increase="' + [incrPagination] + '"';
                     var background = $(pbSlider.slider_Wrap).find("[data-id='slide-" + incrPagination + "']").attr('data-image');
-                    //background = background.replace('url(','').replace(')','').replace(/\"/gi, "");
-                    console.log(background);
+                    // background = background.replace('url(','').replace(')','').replace(/\"/gi, "");
+                    // console.log(background);
                     $(pbSlider.slider_Wrap).find(pbSlider.slider_Dots.class).append(
                         '<li ' + activeStatus + ' ' + gotoSlide + '>'+
                         '<span class="o-slider--preview" style="background-image:url('+background+')"></span>'+

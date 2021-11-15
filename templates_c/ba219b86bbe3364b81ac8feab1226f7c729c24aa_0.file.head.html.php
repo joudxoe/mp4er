@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.40, created on 2021-11-15 17:00:00
+/* Smarty version 3.1.40, created on 2021-11-15 17:59:21
   from 'C:\phpstudy_pro\WWW\templates\head.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.40',
-  'unifunc' => 'content_619221904d1979_90502353',
+  'unifunc' => 'content_61922f792548b3_75366344',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ba219b86bbe3364b81ac8feab1226f7c729c24aa' => 
     array (
       0 => 'C:\\phpstudy_pro\\WWW\\templates\\head.html',
-      1 => 1636966796,
+      1 => 1636970339,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:style.html' => 1,
   ),
 ),false)) {
-function content_619221904d1979_90502353 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61922f792548b3_75366344 (Smarty_Internal_Template $_smarty_tpl) {
 ?><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -55,9 +55,9 @@ function content_619221904d1979_90502353 (Smarty_Internal_Template $_smarty_tpl)
 <?php echo '<script'; ?>
  src="/statics/js/smohan.face.js" charset="utf-8"><?php echo '</script'; ?>
 >
-<?php echo '<script'; ?>
+<!-- <?php echo '<script'; ?>
  src="/statics/cdn.jsdelivr.net/gh/bde4admin/v3%402.3.8/js/prebid-ads.js"><?php echo '</script'; ?>
->
+> -->
 <?php echo '<script'; ?>
  src="/statics/js/util.v383a7.js?v=1.9"><?php echo '</script'; ?>
 >
