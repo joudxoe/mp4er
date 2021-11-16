@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.40, created on 2021-11-15 17:31:44
+/* Smarty version 3.1.40, created on 2021-11-16 09:46:40
   from 'C:\phpstudy_pro\WWW\templates\top.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.40',
-  'unifunc' => 'content_61922900e35239_88937351',
+  'unifunc' => 'content_61930d8064c7f4_82027522',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd1dedad44f71d4a6a8282b323ee2e5290ef6d694' => 
     array (
       0 => 'C:\\phpstudy_pro\\WWW\\templates\\top.html',
-      1 => 1636967530,
+      1 => 1637027116,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61922900e35239_88937351 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61930d8064c7f4_82027522 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="ui vertical inverted sidebar menu left-sidebar">
   <a class="item" href="s/dongzuo.html">动作</a>
   <a class="item" href="s/aiqing.html">爱情</a>
@@ -117,14 +117,5 @@ function content_61922900e35239_88937351 (Smarty_Internal_Template $_smarty_tpl)
             </div>
         </div>
     </div>
-    <!-- <div class="ui basic flowing popup top left transition hidden history">
-        <div class="ui middle aligned selection list" id="history-list">
-            <div class="item">
-                <div class="content">
-                    <div class="header">观看历史</div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </div><?php }
 }
