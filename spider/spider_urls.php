@@ -70,16 +70,6 @@
             array_push($atype,$type);
         }
 
-        // print_r($ahref);
-        // print_r($aid);
-        // print_r($atitle);
-        // print_r($ashort);
-        // print_r($acover);
-        // print_r($arate);
-        // print_r($astatus);
-        // print_r($apublish);
-        // print_r($atype);
-
         $open=fopen('log_urls.txt','ab');
         $open_query=fopen('log_query.txt','ab');
 
