@@ -25,7 +25,14 @@
         'https://mp4er.cc/guoju/19185.htm',
         'https://mp4er.cc/jilu/19155.htm',
         'https://mp4er.cc/jilu/19180.htm',
-        'https://mp4er.cc/juqing/19162.htm'
+        'https://mp4er.cc/juqing/19162.htm',
+        'https://mp4er.cc/kehuan/19194.htm',
+        'https://mp4er.cc/guoju/19185.htm',
+        'https://mp4er.cc/xiju/19182.htm'
+    ];
+
+    $tar=[
+        'https://mp4er.cc/xiju/19182.htm'
     ];
 
     foreach($tar as $url){
@@ -36,6 +43,10 @@
 
             $id=selector::select($html,'//input[@name="topicId"]/@value');
             $id=trim($id);
+
+            // ==========
+
+            /*
 
             $title=selector::select($html,'//h2[@class="text-center ui header"]');
             $title=trim($title);
@@ -71,6 +82,10 @@
             // 插入記錄至資料庫
             $query='INSERT INTO vintro VALUES("'.$id.'","'.$title.'","'.$cover.'","'.$intro.'","'.$summary.'","'.$info.'","'.$lastmod.'",'.$rate.')';
 
+            */
+
+            // ==========
+
             // ==========
 
             // $dcomment=selector::select($html,'//div[@class="ui minimal comments"]');
@@ -83,11 +98,32 @@
 
             // ==========
 
-            if(!$link->query($query)){
-                printf('寫入資料(%s)失敗%s',$id,PHP_EOL);
+            // https://mp4er.cc/guoju/play/19185-0.htm
+            $anchors='';
+            $ahref=selector::select($html,'//div[@class="info1"]/a/@href');
+            $ainner=selector::select($html,'//div[@class="info1"]/a');
+            if(is_array($ahref)){
+                foreach($ahref as $key=>$val){
+                    $aurl='https://mp4er.cc'.substr($val,0,strrpos($val,';'));
+                    $anchors.='<a class="ui secondary mini button" target="_blank" href="'.$aurl.'">'.$ainner[$key].'</a>';
+                }
             }else{
-                printf('寫入資料(%s)成功%s',$id,PHP_EOL);
+                $ahref='https://mp4er.cc'.substr($ahref,0,strrpos($ahref,';'));
+                $anchors.='<a class="ui secondary mini button" target="_blank" href="'.$ahref.'">'.$ainner.'</a>';
             }
+
+            // https://mp4er.cc/downloadInfo/list?mid=19185
+            $downloads=selector::select($html,'//div[@id="download-list"]');
+            $downloads=$link->real_escape_string($downloads);
+
+            $torrent=selector::select($html,'//div[@id="torrent-list"]/div[@class="ui middle aligned animated list"]');
+            $torrent=$link->real_escape_string($torrent);
+
+            // if(!$link->query($query)){
+            //     printf('寫入資料(%s)失敗%s',$id,PHP_EOL);
+            // }else{
+            //     printf('寫入資料(%s)成功%s',$id,PHP_EOL);
+            // }
         }
 
     }
