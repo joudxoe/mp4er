@@ -27,11 +27,6 @@
         'https://mp4er.cc/jilu/19180.htm',
         'https://mp4er.cc/juqing/19162.htm',
         'https://mp4er.cc/kehuan/19194.htm',
-        'https://mp4er.cc/guoju/19185.htm',
-        'https://mp4er.cc/xiju/19182.htm'
-    ];
-
-    $tar=[
         'https://mp4er.cc/xiju/19182.htm'
     ];
 
@@ -98,26 +93,40 @@
 
             // ==========
 
-            // https://mp4er.cc/guoju/play/19185-0.htm
-            $anchors='';
-            $ahref=selector::select($html,'//div[@class="info1"]/a/@href');
-            $ainner=selector::select($html,'//div[@class="info1"]/a');
-            if(is_array($ahref)){
-                foreach($ahref as $key=>$val){
-                    $aurl='https://mp4er.cc'.substr($val,0,strrpos($val,';'));
-                    $anchors.='<a class="ui secondary mini button" target="_blank" href="'.$aurl.'">'.$ainner[$key].'</a>';
-                }
-            }else{
-                $ahref='https://mp4er.cc'.substr($ahref,0,strrpos($ahref,';'));
-                $anchors.='<a class="ui secondary mini button" target="_blank" href="'.$ahref.'">'.$ainner.'</a>';
+            // $anchors='';
+            // $ahref=selector::select($html,'//div[@class="info1"]/a[@class="ui secondary mini button"]/@href');
+            // $ainner=selector::select($html,'//div[@class="info1"]/a[@class="ui secondary mini button"]');
+            // if(is_array($ahref)){
+            //     foreach($ahref as $key=>$val){
+            //         $aurl='https://mp4er.cc'.substr($val,0,strrpos($val,'.')).'.htm';
+            //         $anchors.='<a class="ui secondary mini button" target="_blank" href="'.$aurl.'">'.$ainner[$key].'</a>';
+            //     }
+            // }else{
+            //     $ahref='https://mp4er.cc'.substr($ahref,0,strrpos($ahref,'.')).'.htm';
+            //     $anchors.='<a class="ui secondary mini button" target="_blank" href="'.$ahref.'">'.$ainner.'</a>';
+            // }
+            // $anchors=$link->real_escape_string(trim($anchors));
+
+            // 獲取下載載點
+            $durl='https://mp4er.cc/downloadInfo/list?mid='.$id;
+            $dinfo=file_get_contents($durl);
+            $darr=json_decode($dinfo);
+            $ditem='';
+            foreach($darr as $arr){
+                $package=($arr->password=='none')? '':'<em style="color:red">（打包）</em>';
+                $ditem.='<div class="item"><div class="content">';
+                $ditem.='<a class="parent" target="_blank" href="'.trim($arr->url).'">';
+                $ditem.='<em class="left" style="color: red">'.trim($arr->downloadCategory->name).'：</em>';
+                $ditem.='<em class="right ui text nowrap" title="'.trim($arr->url).'">'.trim($arr->url).'</em>'.$package.'</a>';
+                $ditem.='</div></div>';
             }
+            $ditem=$link->real_escape_string(trim($ditem));
 
-            // https://mp4er.cc/downloadInfo/list?mid=19185
-            $downloads=selector::select($html,'//div[@id="download-list"]');
-            $downloads=$link->real_escape_string($downloads);
+            // 獲取下載種子
+            // $torrent=selector::select($html,'//div[@id="torrent-list"]/div[@class="ui middle aligned animated list"]');
+            // $torrent=$link->real_escape_string(trim($torrent));
 
-            $torrent=selector::select($html,'//div[@id="torrent-list"]/div[@class="ui middle aligned animated list"]');
-            $torrent=$link->real_escape_string($torrent);
+            // $query='INSERT INTO vdownload VALUES("'.$id.'","'.$downloads.'","'.$torrent.'","'.$anchors.'")';
 
             // if(!$link->query($query)){
             //     printf('寫入資料(%s)失敗%s',$id,PHP_EOL);
