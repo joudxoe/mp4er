@@ -127,12 +127,13 @@
             // $torrent=$link->real_escape_string(trim($torrent));
 
             // $query='INSERT INTO vdownload VALUES("'.$id.'","'.$downloads.'","'.$torrent.'","'.$anchors.'")';
+            // $query='UPDATE vdownload set download="'.$ditem.'" where vid='.$id;
 
-            // if(!$link->query($query)){
-            //     printf('寫入資料(%s)失敗%s',$id,PHP_EOL);
-            // }else{
-            //     printf('寫入資料(%s)成功%s',$id,PHP_EOL);
-            // }
+            if(!$link->query($query)){
+                printf('寫入資料(%s)失敗%s',$id,PHP_EOL);
+            }else{
+                printf('寫入資料(%s)成功%s',$id,PHP_EOL);
+            }
         }
 
     }

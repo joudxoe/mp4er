@@ -19,7 +19,7 @@
         exit;
     }
 
-    $tar='https://mp4er.cc/s/all/47?year=2021';
+    $tar='https://mp4er.cc/s/all/43?year=2021';
 
     $html=requests::get($tar);
 
@@ -31,11 +31,14 @@
 
         $cards=selector::select($html,'//div[@class="card"]');
 
+        $open_urls=fopen('urls.txt','ab');
+
         foreach($cards as $card){
 
             $href=selector::select($card,'//a[@class="image"]/@href');
             $href=trim('https://mp4er.cc'.substr($href,0,strrpos($href,';')));
             array_push($ahref,$href);
+            fwrite($open_urls,$href.PHP_EOL);
 
             $start=strrpos($href,'/');
             $id=trim(str_replace('.htm','',str_replace('/','',substr($href,$start))));
@@ -68,8 +71,10 @@
 
             $type=trim(str_replace('https://mp4er.cc/','',substr($href,0,strrpos($href,'/'))));
             array_push($atype,$type);
+
         }
 
+        fclose($open_urls);
         $open=fopen('log_urls.txt','ab');
         $open_query=fopen('log_query.txt','ab');
 
@@ -78,7 +83,7 @@
             $line='['.date("Y-m-d H:i:s",time()).'] '.$ahref[$i].'=='.$aid[$i].'=='.$ashort[$i].'=='.$acover[$i];
             printf('%s%s',$line,PHP_EOL);
             fwrite($open,$line.PHP_EOL);
-            $query='INSERT INTO vinfo VALUES('.$aid[$i].',"'.$atitle[$i].'","'.$ashort[$i].'","'.$acover[$i].'",'.$arate[$i].',"'.$astatus[$i].'","'.$apublish[$i].'","'.$atype[$i].'","'.$ahref[$i].'")';
+            $query='INSERT IGNORE INTO vinfo VALUES('.$aid[$i].',"'.$atitle[$i].'","'.$ashort[$i].'","'.$acover[$i].'",'.$arate[$i].',"'.$astatus[$i].'","'.$apublish[$i].'","'.$atype[$i].'","'.$ahref[$i].'")';
             if(!$link->query($query)){
                 printf('[%s] 寫入資料庫失敗(%u)%s',date('Y-m-d H:i:s',time()),$aid[$i],PHP_EOL);
             }else{
